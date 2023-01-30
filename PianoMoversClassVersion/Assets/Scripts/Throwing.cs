@@ -9,6 +9,7 @@ public class Throwing : MonoBehaviour
     {
         GetComponent<Rigidbody2D>().AddForce(transform.right * 135);
         print("hello");
+        
     }
 
     // Update is called once per frame
